@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GreetingResource {
 
-	private static final String template = "Greetings, %s!";
+	private static final String template = "Hola comostas, %s!";
     private final AtomicLong counter = new AtomicLong(); // stateful counter...
 
     @GetMapping("/api/greetings/greeting")
